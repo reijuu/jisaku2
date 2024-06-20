@@ -1,0 +1,133 @@
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 2024-06-20 03:37:41
+Description: Rendering overlay
+
+net.minecraft.ResourceLocationException: Non [a-z0-9_.-] character in namespace of location: Jisaku2:sounds.json
+	at net.minecraft.resources.ResourceLocation.assertValidNamespace(ResourceLocation.java:215) ~[forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2.jar%23188!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2.jar%23188!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.sounds.SoundManager.prepare(SoundManager.java:76) ~[forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2.jar%23188!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.sounds.SoundManager.prepare(SoundManager.java:40) ~[forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2.jar%23188!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$0(SimplePreparableReloadListener.java:11) ~[forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2.jar%23188!/:?] {re:classloading}
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Suspected Mods: NONE
+Stacktrace:
+	at net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:958) ~[forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2.jar%23188!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+-- Overlay render details --
+Details:
+	Overlay name: net.minecraftforge.client.loading.ForgeLoadingOverlay
+Stacktrace:
+	at net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:958) ~[forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1211) ~[forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:781) ~[forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:221) ~[forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:98) ~[fmlloader-1.20.2-48.1.0.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:82) ~[fmlloader-1.20.2-48.1.0.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:17) ~[modlauncher-10.1.1.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:40) ~[modlauncher-10.1.1.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:58) ~[modlauncher-10.1.1.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:96) ~[modlauncher-10.1.1.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) ~[modlauncher-10.1.1.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:13) ~[modlauncher-10.1.1.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:10) ~[modlauncher-10.1.1.jar:?] {}
+	at net.minecraftforge.bootstrap.BootstrapLauncher.main(BootstrapLauncher.java:126) ~[bootstrap-1.2.0.jar:?] {}
+
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: No
+	Packs: vanilla, mod_resources
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.2
+	Minecraft Version ID: 1.20.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.11, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 90426528 bytes (86 MiB) / 434110464 bytes (414 MiB) up to 2118123520 bytes (2020 MiB)
+	CPUs: 4
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz
+	Identifier: Intel64 Family 6 Model 158 Stepping 9
+	Microarchitecture: Kaby Lake
+	Frequency (GHz): 3.00
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 4
+	Graphics card #0 name: Intel(R) HD Graphics 630
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 1024.00
+	Graphics card #0 deviceId: 0x5912
+	Graphics card #0 versionInfo: DriverVersion=31.0.101.2127
+	Memory slot #0 capacity (MB): 4096.00
+	Memory slot #0 clockSpeed (GHz): 2.40
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 4096.00
+	Memory slot #1 clockSpeed (GHz): 2.40
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 23244.78
+	Virtual memory used (MB): 12230.73
+	Swap memory total (MB): 15168.00
+	Swap memory used (MB): 1015.74
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	JVM uptime in seconds: 19.139
+	Launched Version: MOD_DEV
+	Backend library: LWJGL version 3.3.2+13
+	Backend API: Intel(R) HD Graphics 630 GL version 4.6.0 - Build 31.0.101.2127, Intel
+	Window size: 854x480
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Graphics mode: fancy
+	Resource Packs: 
+	Current Language: ja_jp
+	Locale: ja_JP
+	CPU: 4x Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz
+	ModLauncher: 10.1.1
+	ModLauncher launch target: forge_userdev_client
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.2.0.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.2-48.1.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.2-48.1.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.2-48.1.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.2-48.1.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.1.1.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.2-48.1.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.1.1.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.1.1.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@48
+		javafml@null
+	Mod List: 
+		forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.|Minecraft                     |minecraft                     |1.20.2              |SIDED_SETU|Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		                                                  |Forge                         |forge                         |48.1.0              |SIDED_SETU|Manifest: NOSIGNATURE
+		main                                              |jisaku2                       |jisaku2                       |1.0-SNAPSHOT        |SIDED_SETU|Manifest: NOSIGNATURE
+	Crash Report UUID: 1c8851f6-78e5-423f-8b64-e396b4417d86
+	FML: 48.1
+	Forge: net.minecraftforge:48.1.0
