@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: jisaku2
+Specification-Vendor: 
+Specification-Version: 1
+Implementation-Title: jisaku2
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor: 
+Implementation-Timestamp: 2024-06-20T17:06:40+0900
+
