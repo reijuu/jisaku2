@@ -7,11 +7,15 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import reijuu.jisakuMod2.JisakuMod2;
+import reijuu.jisakuMod2.block.JisakBlocks;
 
 public class ItemTabs {
 
-    public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, JisakuMod2.MODID);
-    //レジストリーにタブを登録
+    // レジストリを作成
+    public static final DeferredRegister<CreativeModeTab> TABS =
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, JisakuMod2.MODID);
+
+    // レジストリーにタブを登録
     public static final RegistryObject<CreativeModeTab> ITEM_TAB = TABS.register("item_tab",
             () -> CreativeModeTab.builder()
                     .title(Component.translatable("creativetabs.item_tab"))
@@ -19,10 +23,16 @@ public class ItemTabs {
                     .displayItems(((pParameters, pOutput) -> {
                         pOutput.accept(JisakuItems.RAW_ORIHALCON.get());
                         pOutput.accept(JisakuItems.ORIHALCON_INGOT.get());
+                        pOutput.accept(JisakBlocks.ORIHALCON_BLOCK.get());
+                        pOutput.accept(JisakBlocks.ORIHALCON_ORE.get());
+                        pOutput.accept(JisakBlocks.DEEPSLATE_ORIHALCON_ORE.get());
+                        pOutput.accept(JisakBlocks.RAW_ORIHALCON_BLOCK.get());
+                        pOutput.accept(JisakBlocks.RANDOM_EXP_BLOCK.get());
                     }))
                     .build());
 
     public static void register(IEventBus eventBus) {
+        // クリエイティブタブをイベントバスに登録
         TABS.register(eventBus);
     }
 }

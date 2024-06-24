@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "jisaku2:raw_orihalcon_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "jisaku2:raw_orihalcon"
+  }
+}

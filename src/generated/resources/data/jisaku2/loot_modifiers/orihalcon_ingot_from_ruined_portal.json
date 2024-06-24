@@ -1,0 +1,10 @@
+{
+  "type": "jisaku2:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/ruined_portal"
+    }
+  ],
+  "item": "jisaku2:orihalcon_ingot"
+}
