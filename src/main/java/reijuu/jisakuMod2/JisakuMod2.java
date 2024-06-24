@@ -15,6 +15,8 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 import reijuu.jisakuMod2.Item.JisakuItems;
 import reijuu.jisakuMod2.Item.ItemTabs;
+import reijuu.jisakuMod2.block.JisakBlocks;
+import reijuu.jisakuMod2.loot.JisakuLootModeifiers;
 
 @Mod(JisakuMod2.MODID)
 public class JisakuMod2 {
@@ -28,8 +30,12 @@ public class JisakuMod2 {
 
         //アイテムレジストリーをイベントバスに登録
         JisakuItems.register(modEventBus);
-        //クリエイティブタブレジストリーをイベントバスに登録
+        //クリエイティブタブレジストリをイベントバスに登録
         ItemTabs.register(modEventBus);
+        //ブロックレジストリにイベントバスに登録
+        JisakBlocks.rgister(modEventBus);
+        //GlobalLootModifierレジストリにインベントバスに登録
+        JisakuLootModeifiers.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
 

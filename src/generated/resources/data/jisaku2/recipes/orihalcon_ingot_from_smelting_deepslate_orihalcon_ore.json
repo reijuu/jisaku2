@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "orihalcon",
+  "ingredient": {
+    "item": "jisaku2:deepslate_orihalcon_ore"
+  },
+  "result": "jisaku2:orihalcon_ingot"
+}

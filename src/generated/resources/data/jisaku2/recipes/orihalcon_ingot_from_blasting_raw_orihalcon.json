@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "orihalcon",
+  "ingredient": {
+    "item": "jisaku2:raw_orihalcon"
+  },
+  "result": "jisaku2:orihalcon_ingot"
+}

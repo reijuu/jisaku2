@@ -1,0 +1,11 @@
+{
+  "type": "jisaku2:replace_item",
+  "chance": 0.5,
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:archaeology/desert_pyramid"
+    }
+  ],
+  "item": "jisaku2:orihalcon_ingot"
+}
