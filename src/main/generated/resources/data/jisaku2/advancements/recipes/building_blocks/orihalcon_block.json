@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_orihalcon_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jisaku2:orihalcon_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "jisaku2:orihalcon_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_orihalcon_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "jisaku2:orihalcon_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}
