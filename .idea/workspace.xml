@@ -5,31 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbf40916-093a-4565-9a63-03520e9491e1" name="変更" comment="コミット">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/META-INF/mods.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/data/forge/loot_modifiers/global_loot_modifiers.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/data/forge/tags/blocks/needs_netherite_tool.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/blocks/needs_diamond_tool.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/blocks/needs_iron_tool.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/pack.mcmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/Item/Item/custom/JisakuArrowItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/Item/Item/custom/JisakuArrowItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/Item/Item/custom/JisakuBow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/Item/Item/custom/JisakuBow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/entity/projectile/JisakuArrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/entity/projectile/JisakuArrow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -374,7 +353,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720541116760</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1720603781692</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1720603781692</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

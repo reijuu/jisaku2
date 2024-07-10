@@ -25,7 +25,7 @@ public class JisakuArrow extends AbstractArrow {
         super(JisakuEntity.JISAKU_ARROW.get(), shooter, level);
     }
 
-    private void setEffectsFromItem(ItemStack stack) {
+    public void setEffectsFromItem(ItemStack stack) {
         if (stack.getItem() == JisakuItems.JISAKU_ARROW.get()) {
             this.setEffectsFromItem(stack);
         }

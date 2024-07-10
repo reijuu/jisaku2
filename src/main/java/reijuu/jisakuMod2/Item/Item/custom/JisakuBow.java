@@ -49,7 +49,13 @@ public class JisakuBow extends BowItem  {
         if (!world.isClientSide() && entity instanceof ServerPlayer player) {
             ItemStack ammo = findAmmo(player);
             if (player.getAbilities().instabuild || !ammo.isEmpty()) {
-                Arrow arrow = new Arrow(EntityType.ARROW, world);
+                AbstractArrow arrow;
+                if (ammo.getItem() instanceof JisakuArrowItem) {
+                    JisakuArrowItem jisakuArrowItem = (JisakuArrowItem) ammo.getItem();
+                    arrow = jisakuArrowItem.createArrow(world, ammo, player);
+                } else {
+                    arrow = new Arrow(EntityType.ARROW, world); // デフォルトの矢
+                }
                 arrow.setBaseDamage(150.0);
                 arrow.shootFromRotation(entity, entity.getXRot(), entity.getYRot(), 0, 3.15f, 1.0F);
                 world.addFreshEntity(arrow);
