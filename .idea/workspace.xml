@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cbf40916-093a-4565-9a63-03520e9491e1" name="変更" comment="コミット" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jisaku2" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jisaku2" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jisaku2" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="forgegradle runs" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2i8kjCKy0muLKndlxqrJnk1k56w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.jisaku2 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.jisaku2 [runClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.jisaku2 [runData].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ソースのダウンロード.executor&quot;: &quot;Run&quot;,
+    &quot;JavaVariableFindUsagesOptions.isSearchForAccessors&quot;: &quot;true&quot;,
+    &quot;JavaVariableFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/mods/jisaku2/src/main/java/reijuu/jisakuMod2/worldgen/featues&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;モジュール&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="reijuu.jisakuMod2.entity.projectile" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\mods\jisaku2\src\main\java\reijuu\jisakuMod2\worldgen\featues" />
+      <recent name="C:\mods\jisaku2\src\main\resources\assets\jisaku2\textures\item" />
+      <recent name="C:\Users\user\Desktop\マイクラ関係\バニラ素材" />
+      <recent name="C:\mods\jisaku2\src\main\resources\assets\jisaku2\textures\block" />
+      <recent name="C:\Users\user\Desktop\マイクラ関係\素材" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\mods\jisaku2\src\main\resources\assets\jisaku2\textures\item\models" />
+      <recent name="C:\mods\jisaku2\src\generated\resources\assets\jisaku2\models\item" />
+      <recent name="C:\mods\jisaku2\src\main\resources\assets\jisaku2\models" />
+      <recent name="C:\mods\jisaku2\src\main\java\reijuu\jisakuMod2\Item" />
+      <recent name="C:\mods\jisaku2\src\main\java\reijuu\jisakuMod2\entity\custom" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="reijuu.jisakuMod2.datagen" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="reijuu.jisakuMod2.loot" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.jisaku2 [runClient]">
+    <configuration name="jisaku2 [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="jisaku2 [runData]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runData" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.jisaku2 [runClient]" />
+        <item itemvalue="Gradle.jisaku2 [runData]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="アプリケーションレベル" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="デフォルトタスク">
+      <changelist id="cbf40916-093a-4565-9a63-03520e9491e1" name="変更" comment="" />
+      <created>1718879724682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718879724682</updated>
+    </task>
+    <task id="LOCAL-00001" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1718891639500</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718891639500</updated>
+    </task>
+    <task id="LOCAL-00002" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1718984153705</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718984153705</updated>
+    </task>
+    <task id="LOCAL-00003" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1719047688728</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719047688729</updated>
+    </task>
+    <task id="LOCAL-00004" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1719066501613</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719066501613</updated>
+    </task>
+    <task id="LOCAL-00005" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1719167202065</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719167202065</updated>
+    </task>
+    <task id="LOCAL-00006" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1719167248629</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719167248629</updated>
+    </task>
+    <task id="LOCAL-00007" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1719169772546</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719169772546</updated>
+    </task>
+    <task id="LOCAL-00008" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1719219662879</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719219662879</updated>
+    </task>
+    <task id="LOCAL-00009" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1719219819322</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719219819322</updated>
+    </task>
+    <task id="LOCAL-00010" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1719242602989</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719242603117</updated>
+    </task>
+    <task id="LOCAL-00011" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1719242632997</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719242632997</updated>
+    </task>
+    <task id="LOCAL-00012" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1719302326288</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719302326288</updated>
+    </task>
+    <task id="LOCAL-00013" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1719304296098</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719304296098</updated>
+    </task>
+    <task id="LOCAL-00014" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1719407363266</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719407363266</updated>
+    </task>
+    <task id="LOCAL-00015" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1719570957546</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719570957547</updated>
+    </task>
+    <task id="LOCAL-00016" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1719668066901</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1719668066902</updated>
+    </task>
+    <task id="LOCAL-00017" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1719668100224</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1719668100224</updated>
+    </task>
+    <task id="LOCAL-00018" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1720510529808</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1720510529808</updated>
+    </task>
+    <task id="LOCAL-00019" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1720523182111</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1720523182111</updated>
+    </task>
+    <task id="LOCAL-00020" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1720540171610</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1720540171610</updated>
+    </task>
+    <task id="LOCAL-00021" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1720541116760</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1720541116760</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="コミット" />
+    <option name="LAST_COMMIT_MESSAGE" value="コミット" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2/forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2.jar!/net/minecraft/world/item/ArmorMaterials.class</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

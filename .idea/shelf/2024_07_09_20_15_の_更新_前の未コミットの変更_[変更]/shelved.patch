@@ -1,0 +1,41 @@
+Index: src/main/java/reijuu/jisakuMod2/JisakuMod2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package reijuu.jisakuMod2;\r\n\r\nimport com.mojang.logging.LogUtils;\r\nimport net.minecraft.world.item.CreativeModeTabs;\r\nimport net.minecraftforge.api.distmarker.Dist;\r\nimport net.minecraftforge.common.MinecraftForge;\r\nimport net.minecraftforge.event.BuildCreativeModeTabContentsEvent;\r\nimport net.minecraftforge.event.server.ServerStartingEvent;\r\nimport net.minecraftforge.eventbus.api.IEventBus;\r\nimport net.minecraftforge.eventbus.api.SubscribeEvent;\r\nimport net.minecraftforge.fml.common.Mod;\r\nimport net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;\r\nimport net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;\r\nimport net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;\r\nimport org.slf4j.Logger;\r\nimport reijuu.jisakuMod2.Item.JisakuItems;\r\nimport reijuu.jisakuMod2.Item.ItemTabs;\r\nimport reijuu.jisakuMod2.block.JisakBlocks;\r\nimport reijuu.jisakuMod2.loot.JisakuLootModeifiers;\r\n\r\n@Mod(JisakuMod2.MODID)\r\npublic class JisakuMod2 {\r\n    public static final String MODID = \"jisaku2\";\r\n    private static final Logger LOGGER = LogUtils.getLogger();\r\n\r\n    public JisakuMod2() {\r\n        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();\r\n\r\n        modEventBus.addListener(this::commonSetup);\r\n\r\n        //アイテムレジストリーをイベントバスに登録\r\n        JisakuItems.register(modEventBus);\r\n        //クリエイティブタブレジストリをイベントバスに登録\r\n        ItemTabs.register(modEventBus);\r\n        //ブロックレジストリにイベントバスに登録\r\n        JisakBlocks.rgister(modEventBus);\r\n        //GlobalLootModifierレジストリにインベントバスに登録\r\n        JisakuLootModeifiers.register(modEventBus);\r\n\r\n        MinecraftForge.EVENT_BUS.register(this);\r\n\r\n        modEventBus.addListener(this::addCreative);\r\n    }\r\n    private void commonSetup(final FMLCommonSetupEvent event) {\r\n\r\n    }\r\n    private void addCreative(BuildCreativeModeTabContentsEvent event) {\r\n        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){\r\n            event.accept(JisakuItems.RAW_ORIHALCON);\r\n            event.accept(JisakuItems.ORIHALCON_INGOT);\r\n        }\r\n    }\r\n\r\n    @SubscribeEvent\r\n    public void onServerStarting(ServerStartingEvent event) {\r\n    }\r\n\r\n    @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)\r\n    public static class ClientModEvents {\r\n\r\n        @SubscribeEvent\r\n        public static void onClientSetup(FMLClientSetupEvent event) {\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/reijuu/jisakuMod2/JisakuMod2.java b/src/main/java/reijuu/jisakuMod2/JisakuMod2.java
+--- a/src/main/java/reijuu/jisakuMod2/JisakuMod2.java	(revision a7aa00e0f4da6f87c4db13b032ee609163319063)
++++ b/src/main/java/reijuu/jisakuMod2/JisakuMod2.java	(date 1720523691547)
+@@ -16,6 +16,7 @@
+ import reijuu.jisakuMod2.Item.JisakuItems;
+ import reijuu.jisakuMod2.Item.ItemTabs;
+ import reijuu.jisakuMod2.block.JisakBlocks;
++import reijuu.jisakuMod2.entity.JisakuEntity;
+ import reijuu.jisakuMod2.loot.JisakuLootModeifiers;
+ 
+ @Mod(JisakuMod2.MODID)
+@@ -36,11 +37,22 @@
+         JisakBlocks.rgister(modEventBus);
+         //GlobalLootModifierレジストリにインベントバスに登録
+         JisakuLootModeifiers.register(modEventBus);
++        JisakuEntity.ENTITY_TYPES.register(modEventBus);
++        modEventBus.addListener(this::setup);
++        modEventBus.addListener(this::doClientStuff);
+ 
+         MinecraftForge.EVENT_BUS.register(this);
+ 
+         modEventBus.addListener(this::addCreative);
+     }
++    private void setup(final FMLCommonSetupEvent event) {
++        // 一般的なセットアップ
++    }
++
++    private void doClientStuff(final FMLClientSetupEvent event) {
++        // クライアントセットアップ
++    }
++
+     private void commonSetup(final FMLCommonSetupEvent event) {
+ 
+     }
