@@ -17,6 +17,14 @@ public class ENUSLanguageProvider extends LanguageProvider {
     protected void addTranslations() {
         addItem(JisakuItems.RAW_ORIHALCON,"Raw Orihalcon");
         addItem(JisakuItems.ORIHALCON_INGOT, "Orihalcon Ingot");
+        addItem(JisakuItems.JISAKU_ARROW, "jisaku aarrow");
+        addItem(JisakuItems.JISAKU_BOW, "jisaku bow");
+        addItem(JisakuItems.ORIHALCON_SWORD, "orihalcon sword");
+        addItem(JisakuItems.ORIHALCON_HELMET, "orihalcon helmet");
+        addItem(JisakuItems.ORIHALCON_CHESTPLATE, "orihalcon chestplate");
+        addItem(JisakuItems.ORIHALCON_LEGGINGS, "orihalcon leggings");
+        addItem(JisakuItems.ORIHALCON_BOOTS, "orihalcon boots");
+
 
 
         add("creativetabs.item_tab", "jisaku");

@@ -13,10 +13,20 @@ public class JisakuItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+        //アイテム
         basicItem(JisakuItems.RAW_ORIHALCON.get());
         basicItem(JisakuItems.ORIHALCON_INGOT.get());
+        basicItem(JisakuItems.JISAKU_ARROW.get());
 
+        //TOOL
+        basicItem(JisakuItems.ORIHALCON_SWORD.get());
+        basicItem(JisakuItems.JISAKU_BOW.get());
 
+        //防具
+        basicItem(JisakuItems.ORIHALCON_HELMET.get());
+        basicItem(JisakuItems.ORIHALCON_CHESTPLATE.get());
+        basicItem(JisakuItems.ORIHALCON_LEGGINGS.get());
+        basicItem(JisakuItems.ORIHALCON_BOOTS.get());
     }
     //jsonファイル自動生成
 

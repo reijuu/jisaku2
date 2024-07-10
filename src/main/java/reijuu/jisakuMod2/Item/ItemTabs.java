@@ -21,8 +21,22 @@ public class ItemTabs {
                     .title(Component.translatable("creativetabs.item_tab"))
                     .icon(JisakuItems.RAW_ORIHALCON.get()::getDefaultInstance)
                     .displayItems(((pParameters, pOutput) -> {
+                        //アイテム
                         pOutput.accept(JisakuItems.RAW_ORIHALCON.get());
                         pOutput.accept(JisakuItems.ORIHALCON_INGOT.get());
+                        pOutput.accept(JisakuItems.JISAKU_ARROW.get());
+
+                        //ツール
+                        pOutput.accept(JisakuItems.ORIHALCON_SWORD.get());
+                        pOutput.accept(JisakuItems.JISAKU_BOW.get());
+
+                        //防具
+                        pOutput.accept(JisakuItems.ORIHALCON_HELMET.get());
+                        pOutput.accept(JisakuItems.ORIHALCON_CHESTPLATE.get());
+                        pOutput.accept(JisakuItems.ORIHALCON_LEGGINGS.get());
+                        pOutput.accept(JisakuItems.ORIHALCON_BOOTS.get());
+
+                        //ブロック
                         pOutput.accept(JisakBlocks.ORIHALCON_BLOCK.get());
                         pOutput.accept(JisakBlocks.ORIHALCON_ORE.get());
                         pOutput.accept(JisakBlocks.DEEPSLATE_ORIHALCON_ORE.get());

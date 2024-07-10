@@ -17,6 +17,13 @@ public class JAJPLanguageProvider extends LanguageProvider {
     protected void addTranslations() {
         addItem(JisakuItems.RAW_ORIHALCON,"オリハルコンの原石");
         addItem(JisakuItems.ORIHALCON_INGOT, "オリハルコンのインゴット");
+        addItem(JisakuItems.JISAKU_ARROW, "自作矢");
+        addItem(JisakuItems.JISAKU_BOW, "自作弓");
+        addItem(JisakuItems.ORIHALCON_SWORD, "オリハルコンの剣");
+        addItem(JisakuItems.ORIHALCON_HELMET, "オリハルコンのヘルメット");
+        addItem(JisakuItems.ORIHALCON_CHESTPLATE, "オリハルコンのチェストプレート");
+        addItem(JisakuItems.ORIHALCON_LEGGINGS, "オリハルコンのレギンス");
+        addItem(JisakuItems.ORIHALCON_BOOTS, "オリハルコンのブーツ");
 
         add("creativetabs.item_tab", "自作");
 

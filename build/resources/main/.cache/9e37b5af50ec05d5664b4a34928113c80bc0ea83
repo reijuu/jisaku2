@@ -1,0 +1,6 @@
+// 1.20.2	2024-07-10T17:07:41.528886	Global Loot Modifiers : jisaku2
+13cf97df12df4758b93eb8e3109ffb1442f85d9f data/forge/loot_modifiers/global_loot_modifiers.json
+fa7699f25d17f2b2e465b26d91fd28bc5215ccba data/jisaku2/loot_modifiers/orihalcon_ingot_from_ruined_portal.json
+88654316af78f670aa365fee3fec7a3b7bbf6b87 data/jisaku2/loot_modifiers/orihalcon_ingot_from_sniffer_digging.json
+2f96f86c61ed7f1ac60d27b1f0c3c91f896fc3b2 data/jisaku2/loot_modifiers/orihalcon_ingot_from_sus_sand.json
+36d296059f8e7eebd25c583cc775ce5334d4681e data/jisaku2/loot_modifiers/orihalcon_ingot_from_zombie.json

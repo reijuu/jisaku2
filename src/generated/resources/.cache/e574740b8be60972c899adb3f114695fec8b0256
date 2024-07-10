@@ -1,0 +1,5 @@
+// 1.20.2	2024-07-10T17:07:41.5243154	Tags for minecraft:block mod id jisaku2
+06f2579d0d9c4c4e6a1dad2fc2f8f04ae866f14e data/forge/tags/blocks/needs_netherite_tool.json
+441fec2e95442a33b88cb7af947ee17c6975ed66 data/minecraft/tags/blocks/mineable/pickaxe.json
+cd193d26c049eeafb040cfe1cff40b77ef36f0f2 data/minecraft/tags/blocks/needs_diamond_tool.json
+540a00041a4bdf321df2976e8717eadb8ee18555 data/minecraft/tags/blocks/needs_iron_tool.json

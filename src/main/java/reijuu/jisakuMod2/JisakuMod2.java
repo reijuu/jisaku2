@@ -16,6 +16,7 @@ import org.slf4j.Logger;
 import reijuu.jisakuMod2.Item.JisakuItems;
 import reijuu.jisakuMod2.Item.ItemTabs;
 import reijuu.jisakuMod2.block.JisakBlocks;
+import reijuu.jisakuMod2.entity.JisakuEntity;
 import reijuu.jisakuMod2.loot.JisakuLootModeifiers;
 
 @Mod(JisakuMod2.MODID)
@@ -36,11 +37,22 @@ public class JisakuMod2 {
         JisakBlocks.rgister(modEventBus);
         //GlobalLootModifierレジストリにインベントバスに登録
         JisakuLootModeifiers.register(modEventBus);
+        JisakuEntity.ENTITY_TYPES.register(modEventBus);
+        modEventBus.addListener(this::setup);
+        modEventBus.addListener(this::doClientStuff);
 
         MinecraftForge.EVENT_BUS.register(this);
 
         modEventBus.addListener(this::addCreative);
     }
+    private void setup(final FMLCommonSetupEvent event) {
+        // 一般的なセットアップ
+    }
+
+    private void doClientStuff(final FMLClientSetupEvent event) {
+        // クライアントセットアップ
+    }
+
     private void commonSetup(final FMLCommonSetupEvent event) {
 
     }

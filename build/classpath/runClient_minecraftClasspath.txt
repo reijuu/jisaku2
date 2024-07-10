@@ -1,4 +1,4 @@
-C:\Users\user\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2\forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2.jar
+C:\Users\user\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2\forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2-recomp.jar
 C:\Users\user\.gradle\caches\forge_gradle\minecraft_repo\versions\1.20.2\client-extra.jar
 C:\Users\user\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.2-48.1.0\b5951e49178b49352d118c441c5ae3218ed5db26\fmlearlydisplay-1.20.2-48.1.0.jar
 C:\Users\user\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.2-48.1.0\d034c6f69f1f1cf324bdd7bbc66896e67990bbef\javafmllanguage-1.20.2-48.1.0.jar

@@ -2,6 +2,7 @@ package reijuu.jisakuMod2.datagen.server;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -10,7 +11,6 @@ import reijuu.jisakuMod2.Item.JisakuItems;
 import reijuu.jisakuMod2.JisakuMod2;
 import reijuu.jisakuMod2.block.JisakBlocks;
 
-import java.util.Iterator;
 import java.util.List;
 
 public class JisakuRecipeProvider extends RecipeProvider {
@@ -20,11 +20,13 @@ public class JisakuRecipeProvider extends RecipeProvider {
     // オリハルコンインゴットを生成できるアイテムのリスト
     public static final List<ItemLike> ORIHALCON_SMELTABLLE =
             List.of(JisakuItems.RAW_ORIHALCON.get(),
+
                     JisakBlocks.ORIHALCON_ORE.get(),
                     JisakBlocks.DEEPSLATE_ORIHALCON_ORE.get());
 
     @Override
     protected void buildRecipes(RecipeOutput pRecipeOutput) {
+        // VanillaRecipeProviderを検索して参考に
         nineBlockStorageRecipes(pRecipeOutput, RecipeCategory.MISC,
                 JisakuItems.ORIHALCON_INGOT.get(),
                 RecipeCategory.BUILDING_BLOCKS,
@@ -39,6 +41,16 @@ public class JisakuRecipeProvider extends RecipeProvider {
         oreBlasting(pRecipeOutput,ORIHALCON_SMELTABLLE,RecipeCategory.MISC,JisakuItems.ORIHALCON_INGOT.get(),
                 // 製錬時の経験値と時間
                 1.0f,100,"orihalcon");
+
+        // アイテムレシピの追加
+         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, JisakuItems.ORIHALCON_SWORD.get())
+                .define('#', JisakuItems.ORIHALCON_INGOT.get())
+                .define('X', Items.STICK)
+                .pattern(" # ")
+                .pattern(" # ")
+                .pattern(" X ")
+                .unlockedBy("has_orihalcon_ingot", has(JisakuItems.ORIHALCON_INGOT.get()))
+                .save(pRecipeOutput);
     }
 
     // かまど用のレシピ
@@ -66,6 +78,7 @@ public class JisakuRecipeProvider extends RecipeProvider {
                                                   ItemLike pPacked) {
         ShapelessRecipeBuilder.shapeless(pUnpackedCategory, pUnpacked, 9)
                 .requires(pPacked).unlockedBy(getHasName(pPacked), has(pPacked)).save(pRecipeOutput);
+
         ShapedRecipeBuilder.shaped(pPackedCategory, pPacked).define('#', pUnpacked)
                 .pattern("###").pattern("###").pattern("###")
                 .unlockedBy(getHasName(pUnpacked), has(pUnpacked)).save(pRecipeOutput);

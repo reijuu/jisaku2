@@ -1,6 +1,5 @@
 package reijuu.jisakuMod2.block;
 
-import com.mojang.blaze3d.shaders.Uniform;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
