@@ -39,5 +39,6 @@ public class DamageCompuBlockEntity extends BlockEntity {
     }
 
     public void displayDamage(Player player) {
+
     }
 }
