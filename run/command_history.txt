@@ -1,2 +1,3 @@
 /give @p jisaku2:jisaku_arrow 63
 /effect give @a night_vision infinite 0 true
+/give @p jisaku2:jisaku_arrow 63
