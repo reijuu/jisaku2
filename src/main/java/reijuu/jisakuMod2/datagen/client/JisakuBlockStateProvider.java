@@ -22,6 +22,7 @@ public class JisakuBlockStateProvider extends BlockStateProvider {
         simpleBlockWithItem(JisakBlocks.ORIHALCON_ORE);
         simpleBlockWithItem(JisakBlocks.DEEPSLATE_ORIHALCON_ORE);
         simpleBlockWithItem(JisakBlocks.RANDOM_EXP_BLOCK);
+        simpleBlockWithItem(JisakBlocks.DAMAGE_COMPU_BLOCK);
     }
 
     private void simpleBlockWithItem(RegistryObject<Block> block){

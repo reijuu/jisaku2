@@ -1,14 +1,17 @@
-// 1.20.2	2024-07-10T17:07:41.5304088	Block States: jisaku2
+// 1.20.2	2024-07-12T19:44:34.2933656	Block States: jisaku2
+8f310c56647e017240107588f140856d2f40fbd7 assets/jisaku2/blockstates/damage_compu_block.json
 1391ee90e656e46634d6a598efb435075ea64bf0 assets/jisaku2/blockstates/deepslate_orihalcon_ore.json
 1b51d419d3db22888ef8283c903542b7f6925aec assets/jisaku2/blockstates/orihalcon_block.json
 a2000f7e7717bcfcf7bdccbbf57fb649438f22e4 assets/jisaku2/blockstates/orihalcon_ore.json
 61d88ccb61db4c1e0fbc2b154085a51e40f9682a assets/jisaku2/blockstates/random_exp_block.json
 9d45c5feb90a5f4227cb3f47a94307dd4e613297 assets/jisaku2/blockstates/raw_orihalcon_block.json
+33a1a7d0ed9b3a9f6313c18d050261decddf8ec9 assets/jisaku2/models/block/damage_compu_block.json
 481dfe80470ae26022272561eb4140495c77cfcc assets/jisaku2/models/block/deepslate_orihalcon_ore.json
 8f6fd7518f060fd58adfe8cedb18ca581a3e32a2 assets/jisaku2/models/block/orihalcon_block.json
 99b87f1bd09a1ff9b6d2ead1e7aa535509288d80 assets/jisaku2/models/block/orihalcon_ore.json
 f47647ea682bdc6f7410ecc07586cee2741f91bd assets/jisaku2/models/block/random_exp_block.json
 0ee2d3a8a601680ec0fc6c27d4e6dadc125e3f41 assets/jisaku2/models/block/raw_orihalcon_block.json
+150cc22a6ac7c0b50ef2515b401c2fe192097d64 assets/jisaku2/models/item/damage_compu_block.json
 1d88358a399093ddc2ec16db439335faf9cc1cba assets/jisaku2/models/item/deepslate_orihalcon_ore.json
 9ff1b3d1b252a27099f83e3dba583f2a3dbe4b4b assets/jisaku2/models/item/orihalcon_block.json
 ee006e39ccc56442fa0470f114d3e6f444fefa3c assets/jisaku2/models/item/orihalcon_ore.json

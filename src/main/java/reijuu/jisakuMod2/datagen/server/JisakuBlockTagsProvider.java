@@ -24,14 +24,16 @@ public class JisakuBlockTagsProvider extends BlockTagsProvider {
                         JisakBlocks.RAW_ORIHALCON_BLOCK.get(),
                         JisakBlocks.ORIHALCON_ORE.get(),
                         JisakBlocks.DEEPSLATE_ORIHALCON_ORE.get(),
-                        JisakBlocks.RANDOM_EXP_BLOCK.get()
+                        JisakBlocks.RANDOM_EXP_BLOCK.get(),
+                        JisakBlocks.DAMAGE_COMPU_BLOCK.get()
                 );
 
         //どんなタグがあるかはBlockTagsとTags.Blocksクラスをチェック
 
         //ダイヤモンドツールなどのツールはBlockTagsクラス
         this.tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(JisakBlocks.RANDOM_EXP_BLOCK.get()
+                .add(JisakBlocks.RANDOM_EXP_BLOCK.get(),
+                        JisakBlocks.DAMAGE_COMPU_BLOCK.get()
                 );
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)

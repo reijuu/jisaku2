@@ -17,6 +17,7 @@ import reijuu.jisakuMod2.Item.JisakuItems;
 import reijuu.jisakuMod2.Item.ItemTabs;
 import reijuu.jisakuMod2.block.JisakBlocks;
 import reijuu.jisakuMod2.entity.JisakuEntity;
+import reijuu.jisakuMod2.entity.blockentity.JisakuBlockEntityTypes;
 import reijuu.jisakuMod2.loot.JisakuLootModeifiers;
 
 @Mod(JisakuMod2.MODID)
@@ -37,7 +38,11 @@ public class JisakuMod2 {
         JisakBlocks.rgister(modEventBus);
         //GlobalLootModifierレジストリにインベントバスに登録
         JisakuLootModeifiers.register(modEventBus);
+        //EntityTypesをレジストリにイベントバスに登録
         JisakuEntity.ENTITY_TYPES.register(modEventBus);
+        //BlockEntityTypesをレジストリにイベントバスに登録
+        JisakuBlockEntityTypes.BLOCK_ENTITY_TYPES.register(modEventBus);
+
         modEventBus.addListener(this::setup);
         modEventBus.addListener(this::doClientStuff);
 

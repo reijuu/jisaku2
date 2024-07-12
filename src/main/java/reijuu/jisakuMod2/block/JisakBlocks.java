@@ -14,6 +14,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import reijuu.jisakuMod2.Item.JisakuItems;
 import reijuu.jisakuMod2.JisakuMod2;
+import reijuu.jisakuMod2.block.custom.DamageComputationBlock;
 
 import java.util.function.Supplier;
 
@@ -45,6 +46,9 @@ public class JisakBlocks {
                     UniformInt.of(1,99999)
                     ));
 
+    public static final RegistryObject<Block> DAMAGE_COMPU_BLOCK = registerBlockItem(
+            "damage_compu_block",
+            () -> new DamageComputationBlock());
 
     // ブロック作成用メソッド
     private static <T extends Block> RegistryObject<T> registerBlockItem(String name,

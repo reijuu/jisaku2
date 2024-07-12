@@ -14,4 +14,6 @@ public class JisakuEntity {
             () -> EntityType.Builder.<JisakuArrow>of(JisakuArrow::new, MobCategory.MISC)
                     .sized(0.5F, 0.5F) // サイズを調整
                     .build("jisaku_arrow"));
+
+
 }

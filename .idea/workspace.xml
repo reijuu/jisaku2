@@ -5,14 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbf40916-093a-4565-9a63-03520e9491e1" name="変更" comment="コミット">
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-07-10-3.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run-data/logs/2024-07-10-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run-data/logs/2024-07-12-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run-data/logs/2024-07-12-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run-data/logs/2024-07-12-3.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run-data/logs/2024-07-12-4.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run-data/logs/2024-07-12-5.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run-data/logs/2024-07-12-6.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run-data/logs/2024-07-12-7.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run-data/logs/2024-07-12-8.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run-data/logs/2024-07-12-9.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run-data/logs/debug-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run-data/logs/debug-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run-data/logs/debug-3.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run-data/logs/debug-4.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run-data/logs/debug-5.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2024-07-11-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2024-07-12-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/block/custom/DamageComputationBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/entity/blockentity/DamageCompuBlockEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/entity/blockentity/JisakuBlockEntityTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/event/DamageEventHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/Item/Item/custom/JisakuArrowItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/Item/Item/custom/JisakuArrowItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/Item/Item/custom/JisakuBow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/Item/Item/custom/JisakuBow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/entity/projectile/JisakuArrow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/entity/projectile/JisakuArrow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/Item/ItemTabs.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/Item/ItemTabs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/JisakuMod2$ClientModEvents.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/JisakuMod2$ClientModEvents.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/JisakuMod2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/JisakuMod2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/block/JisakBlocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/block/JisakBlocks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/datagen/client/ENUSLanguageProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/datagen/client/ENUSLanguageProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/datagen/client/JAJPLanguageProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/datagen/client/JAJPLanguageProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/datagen/client/JisakuBlockStateProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/datagen/client/JisakuBlockStateProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/datagen/server/JisakuBlockTagsProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/datagen/server/JisakuBlockTagsProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/datagen/server/loot/JisakuBlockLootTables.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/datagen/server/loot/JisakuBlockLootTables.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/.cache/22ae0d6fba7671e3ee3f835163d4c6e3c3f61b3d" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/.cache/22ae0d6fba7671e3ee3f835163d4c6e3c3f61b3d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/.cache/48abb8816b23c8a7016c8a2b146e65f8267a93ec" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/.cache/48abb8816b23c8a7016c8a2b146e65f8267a93ec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/.cache/c622617f6fabf890a00b9275cd5f643584a8a2c8" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/.cache/c622617f6fabf890a00b9275cd5f643584a8a2c8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/.cache/e574740b8be60972c899adb3f114695fec8b0256" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/.cache/e574740b8be60972c899adb3f114695fec8b0256" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/jisaku2/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/jisaku2/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/jisaku2/lang/ja_jp.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/jisaku2/lang/ja_jp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/mineable/pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/needs_iron_tool.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/needs_iron_tool.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-10-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-10-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-10-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-10-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run-data/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run-data/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run-data/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run-data/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/command_history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/command_history.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -24,7 +61,6 @@
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド/DIM1/data/raids_end.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド/data/random_sequences.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド/entities/r.-1.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド/entities/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド/entities/r.0.-1.mca" afterDir="false" />
@@ -40,8 +76,24 @@
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド/session.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/Item/Item/custom/JisakuArrowItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/Item/Item/custom/JisakuArrowItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/Item/Item/custom/JisakuBow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/Item/Item/custom/JisakuBow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/22ae0d6fba7671e3ee3f835163d4c6e3c3f61b3d" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/22ae0d6fba7671e3ee3f835163d4c6e3c3f61b3d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/48abb8816b23c8a7016c8a2b146e65f8267a93ec" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/48abb8816b23c8a7016c8a2b146e65f8267a93ec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/c622617f6fabf890a00b9275cd5f643584a8a2c8" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/c622617f6fabf890a00b9275cd5f643584a8a2c8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/e574740b8be60972c899adb3f114695fec8b0256" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/e574740b8be60972c899adb3f114695fec8b0256" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/assets/jisaku2/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/assets/jisaku2/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/assets/jisaku2/lang/ja_jp.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/assets/jisaku2/lang/ja_jp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/blocks/needs_iron_tool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/blocks/needs_iron_tool.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/Item/ItemTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/Item/ItemTabs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/JisakuMod2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/JisakuMod2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/block/JisakBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/block/JisakBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/datagen/client/ENUSLanguageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/datagen/client/ENUSLanguageProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/datagen/client/JAJPLanguageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/datagen/client/JAJPLanguageProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/datagen/client/JisakuBlockStateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/datagen/client/JisakuBlockStateProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/datagen/server/JisakuBlockTagsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/datagen/server/JisakuBlockTagsProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/datagen/server/loot/JisakuBlockLootTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/datagen/server/loot/JisakuBlockLootTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/entity/JisakuEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/entity/JisakuEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,36 +164,37 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Gradle.jisaku2 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.jisaku2 [runClient].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.jisaku2 [runData].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ソースのダウンロード.executor&quot;: &quot;Run&quot;,
-    &quot;JavaVariableFindUsagesOptions.isSearchForAccessors&quot;: &quot;true&quot;,
-    &quot;JavaVariableFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;reijuu-patch-1&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/test&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;モジュール&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Gradle.jisaku2 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor": "Run",
+    "Gradle.jisaku2 [runClient].executor": "Run",
+    "Gradle.jisaku2 [runData].executor": "Run",
+    "Gradle.ソースのダウンロード.executor": "Run",
+    "JavaVariableFindUsagesOptions.isSearchForAccessors": "true",
+    "JavaVariableFindUsagesOptions.isSearchForTextOccurrences": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "reijuu-patch-1",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/mods/jisaku2/src/generated/resources/assets/jisaku2/models/block",
+    "project.structure.last.edited": "モジュール",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="reijuu.jisakuMod2.entity.projectile" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\mods\jisaku2\src\main\java\reijuu\jisakuMod2\worldgen\featues" />
+      <recent name="C:\mods\jisaku2\src\generated\resources\assets\jisaku2\models\block" />
       <recent name="C:\mods\jisaku2\src\main\resources\assets\jisaku2\textures\item" />
-      <recent name="C:\Users\user\Desktop\マイクラ関係\バニラ素材" />
       <recent name="C:\mods\jisaku2\src\main\resources\assets\jisaku2\textures\block" />
-      <recent name="C:\Users\user\Desktop\マイクラ関係\素材" />
+      <recent name="C:\mods\jisaku2\src\main\resources\assets\jisaku2\textures\block\models" />
+      <recent name="C:\mods\jisaku2\src\main\java\reijuu\jisakuMod2\worldgen\featues" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\mods\jisaku2\src\main\resources\assets\jisaku2\textures\item\models" />

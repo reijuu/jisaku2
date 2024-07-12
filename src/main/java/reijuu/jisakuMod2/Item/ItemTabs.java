@@ -42,6 +42,7 @@ public class ItemTabs {
                         pOutput.accept(JisakBlocks.DEEPSLATE_ORIHALCON_ORE.get());
                         pOutput.accept(JisakBlocks.RAW_ORIHALCON_BLOCK.get());
                         pOutput.accept(JisakBlocks.RANDOM_EXP_BLOCK.get());
+                        pOutput.accept(JisakBlocks.DAMAGE_COMPU_BLOCK.get());
                     }))
                     .build());
 

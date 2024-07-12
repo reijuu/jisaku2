@@ -19,8 +19,11 @@ public class JisakuBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(JisakBlocks.ORIHALCON_BLOCK.get());
         this.dropSelf(JisakBlocks.RAW_ORIHALCON_BLOCK.get());
         this.dropSelf(JisakBlocks.RANDOM_EXP_BLOCK.get());
+        this.dropSelf(JisakBlocks.DAMAGE_COMPU_BLOCK.get());
+
         this.add(JisakBlocks.ORIHALCON_ORE.get(),
                 block -> this.createOreDrop(block, JisakuItems.RAW_ORIHALCON.get()));
+
         this.add(JisakBlocks.DEEPSLATE_ORIHALCON_ORE.get(),
                 block -> this.createOreDrop(block, JisakuItems.RAW_ORIHALCON.get()));
 
