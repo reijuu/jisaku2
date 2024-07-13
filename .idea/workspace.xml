@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbf40916-093a-4565-9a63-03520e9491e1" name="変更" comment="コミット">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2024-07-13-7.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2024-07-13-8.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/TEST/Skill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/TEST/SkillManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/TEST/SkillTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" afterDir="false" />
@@ -13,14 +17,20 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/block/custom/DamageComputationBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/block/custom/DamageComputationBlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/entity/blockentity/DamageCompuBlockEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/entity/blockentity/DamageCompuBlockEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/event/DamageEventHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/event/DamageEventHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/DamageEventHandler.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/DamageCompuBlockEntity.class.uniqueId4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/DamageComputationBlock.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/DamageEventHandler.class.uniqueId6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/JisakBlocks.class.uniqueId5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/JisakuBlockEntityTypes.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/JisakuMod2$ClientModEvents.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/JisakuMod2.class.uniqueId0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-13-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-13-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-13-1.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2024-07-13-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-13-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2024-07-13-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-13-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-13-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-13-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-13-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-13-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-13-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-13-6.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -46,10 +56,6 @@
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド (3)/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド (3)/session.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド (3)/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド (3)/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/block/custom/DamageComputationBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/block/custom/DamageComputationBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/entity/blockentity/DamageCompuBlockEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/entity/blockentity/DamageCompuBlockEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/entity/projectile/JisakuArrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/entity/projectile/JisakuArrow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/event/DamageEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/event/DamageEventHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,27 +126,28 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Gradle.jisaku2 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.jisaku2 [runClient].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.jisaku2 [runData].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ソースのダウンロード.executor&quot;: &quot;Run&quot;,
-    &quot;JavaVariableFindUsagesOptions.isSearchForAccessors&quot;: &quot;true&quot;,
-    &quot;JavaVariableFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;reijuu-patch-1&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/mods/jisaku2/src/generated/resources/assets/jisaku2/models/block&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;モジュール&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Gradle.jisaku2 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor": "Run",
+    "Gradle.jisaku2 [runClient].executor": "Run",
+    "Gradle.jisaku2 [runData].executor": "Run",
+    "Gradle.ソースのダウンロード.executor": "Run",
+    "JavaVariableFindUsagesOptions.isSearchForAccessors": "true",
+    "JavaVariableFindUsagesOptions.isSearchForTextOccurrences": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "reijuu-patch-1",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/mods/jisaku2/src/generated/resources/assets/jisaku2/models/block",
+    "project.structure.last.edited": "モジュール",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "アプリケーション.SkillTest.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="reijuu.jisakuMod2.entity.projectile" />
@@ -167,6 +174,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.jisaku2 [runClient]">
+    <configuration name="SkillTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reijuu.jisakuMod2.TEST.SkillTest" />
+      <module name="jisaku2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reijuu.jisakuMod2.TEST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="jisaku2 [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -213,6 +233,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.SkillTest" />
         <item itemvalue="Gradle.jisaku2 [runClient]" />
         <item itemvalue="Gradle.jisaku2 [runData]" />
       </list>
