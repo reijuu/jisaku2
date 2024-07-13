@@ -20,8 +20,6 @@ import net.minecraft.world.phys.BlockHitResult;
 import org.jetbrains.annotations.Nullable;
 import reijuu.jisakuMod2.entity.blockentity.DamageCompuBlockEntity;
 
-import static net.minecraft.world.level.block.AnvilBlock.damage;
-
 public class DamageComputationBlock extends BaseEntityBlock {
 
     public DamageComputationBlock() {
@@ -31,37 +29,28 @@ public class DamageComputationBlock extends BaseEntityBlock {
     @Override
     public InteractionResult use(BlockState state, Level world, BlockPos pos, Player player, InteractionHand hand, BlockHitResult result) {
         BlockEntity be = world.getBlockEntity(pos);
-        DamageCompuBlockEntity cb = (DamageCompuBlockEntity) be;
-
-        if (player.isSteppingCarefully()) {
-            cb.resetDamage();
-            if (!world.isClientSide) {
-                player.displayClientMessage(Component.literal("ダメージがリセットされました。"), true);
+        if (be instanceof DamageCompuBlockEntity cb) {
+            if (player.isSteppingCarefully()) {
+                cb.resetDamage();
+                if (!world.isClientSide) {
+                    player.displayClientMessage(Component.literal("ダメージがリセットされました。"), true);
+                }
+            } else {
+                int damage = cb.getDamage();
+                if (!world.isClientSide) {
+                    player.displayClientMessage(Component.literal("現在のダメージ: " + cb.getDamage()), true);
+                }
+                world.playSound(player, pos, SoundEvents.ANVIL_HIT, SoundSource.BLOCKS);
             }
-        } else {
-            int damage = cb.getDamage();
-            if (!world.isClientSide) {
-                player.displayClientMessage(Component.literal("現在のダメージ" + cb.getDamage()), true);
-            }
-            world.playSound(player, pos, SoundEvents.ANVIL_HIT, SoundSource.BLOCKS);
+            return InteractionResult.SUCCESS;
         }
-        return InteractionResult.SUCCESS;
+        return InteractionResult.PASS;
     }
 
     @Nullable
     @Override
-    public BlockEntity newBlockEntity(BlockPos Pos, BlockState State) {
-        return new DamageCompuBlockEntity(Pos, State);
-    }
-
-    @Override
-    public void onRemove(BlockState state, Level world, BlockPos pos, BlockState blockState, boolean bool) {
-        super.onRemove(state, world, pos, blockState, bool);
-    }
-
-    @Override
-    public RenderShape getRenderShape(BlockState State) {
-        return RenderShape.MODEL;
+    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
+        return new DamageCompuBlockEntity(pos, state);
     }
 
     @Override
@@ -75,14 +64,15 @@ public class DamageComputationBlock extends BaseEntityBlock {
             if (weapon.getItem() instanceof SwordItem) {
                 damageAmount = (int) player.getAttribute(net.minecraft.world.entity.ai.attributes.Attributes.ATTACK_DAMAGE).getValue();
             }
-            // 矢の場合
-            else if (weapon.getItem() instanceof ArrowItem) {
-                damageAmount = weapon.getDamageValue(); // 矢のダメージ
-            }
 
             cb.addDamage(damageAmount);
             cb.displayDamage(player);
             world.playSound(player, pos, SoundEvents.ANVIL_HIT, SoundSource.BLOCKS);
         }
+    }
+
+    @Override
+    public RenderShape getRenderShape(BlockState state) {
+        return RenderShape.MODEL;
     }
 }

@@ -19,33 +19,23 @@ import reijuu.jisakuMod2.entity.blockentity.DamageCompuBlockEntity;
 @Mod.EventBusSubscriber
 public class DamageEventHandler {
 
-    @SubscribeEvent(priority = EventPriority.NORMAL, receiveCanceled = true)
-    public static void onLivingHurtEvent(LivingHealEvent event) {
-        Entity source = event.getEntity();
-        if (source instanceof Player){
-            Player player = (Player) source;
-        }
-
-    }
     @SubscribeEvent
-    public static void onProjectileImpactEvent(ProjectileImpactEvent event){
-        if (event.getRayTraceResult() instanceof BlockHitResult){
+    public static void onProjectileImpactEvent(ProjectileImpactEvent event) {
+        if (event.getRayTraceResult() instanceof BlockHitResult) {
             BlockHitResult blockHitResult = (BlockHitResult) event.getRayTraceResult();
             BlockPos pos = blockHitResult.getBlockPos();
             Level world = event.getEntity().level();
             BlockEntity be = world.getBlockEntity(pos);
 
-            if (be instanceof DamageCompuBlockEntity){
-                DamageCompuBlockEntity cb = (DamageCompuBlockEntity) be;
+            if (be instanceof DamageCompuBlockEntity cb) {
                 Projectile projectile = (Projectile) event.getEntity();
 
-                if (projectile instanceof Arrow){
-                    Arrow arrow = (Arrow) projectile;
-                    int damage = (int)arrow.getBaseDamage();
+                if (projectile instanceof Arrow arrow) {
+                    int damage = (int) arrow.getBaseDamage(); // 正確な矢のダメージを取得
 
                     cb.addDamage(damage);
 
-                    if (arrow.getOwner() instanceof Player player){
+                    if (arrow.getOwner() instanceof Player player) {
                         cb.displayDamage(player);
                     }
                 }

@@ -2,6 +2,7 @@ package reijuu.jisakuMod2.entity.blockentity;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
@@ -39,6 +40,6 @@ public class DamageCompuBlockEntity extends BlockEntity {
     }
 
     public void displayDamage(Player player) {
-
+        player.displayClientMessage(Component.literal("ダメージ: " + this.damage), true);
     }
 }
