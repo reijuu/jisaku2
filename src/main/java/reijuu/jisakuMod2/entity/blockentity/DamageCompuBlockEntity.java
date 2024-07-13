@@ -39,7 +39,7 @@ public class DamageCompuBlockEntity extends BlockEntity {
         this.damage = 0;
     }
 
-    public void displayDamage(Player player) {
-        player.displayClientMessage(Component.literal("ダメージ: " + this.damage), true);
+    public void displayDamage(Player player, int damage) {
+        player.displayClientMessage(Component.literal("ダメージ: " + damage), true);
     }
 }

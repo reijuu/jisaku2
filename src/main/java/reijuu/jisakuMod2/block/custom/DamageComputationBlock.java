@@ -66,7 +66,7 @@ public class DamageComputationBlock extends BaseEntityBlock {
             }
 
             cb.addDamage(damageAmount);
-            cb.displayDamage(player);
+            cb.displayDamage(player,damageAmount);
             world.playSound(player, pos, SoundEvents.ANVIL_HIT, SoundSource.BLOCKS);
         }
     }

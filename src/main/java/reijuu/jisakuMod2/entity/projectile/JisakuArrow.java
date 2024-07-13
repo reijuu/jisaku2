@@ -12,6 +12,8 @@ import reijuu.jisakuMod2.entity.JisakuEntity;
 
 public class JisakuArrow extends AbstractArrow {
 
+    private static final int CUSTOM_DAMAGE = 1500;
+
     public JisakuArrow(EntityType<? extends AbstractArrow> entityType, Level level) {
         super(entityType, level);
     }
@@ -36,6 +38,11 @@ public class JisakuArrow extends AbstractArrow {
         super.onHitEntity(pResult);
 
     }
+
+    public int getCustomDamage() {
+        return CUSTOM_DAMAGE;
+    }
+
 
     @Override
     protected void onHitBlock(BlockHitResult pResult) {
