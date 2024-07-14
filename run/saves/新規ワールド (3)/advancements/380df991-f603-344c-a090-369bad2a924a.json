@@ -25,6 +25,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:zombie": "2024-07-14 20:44:15 +0900",
       "minecraft:slime": "2024-07-12 23:50:19 +0900"
     },
     "done": false

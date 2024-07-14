@@ -14,16 +14,16 @@ public class Skill {
     // 経験値を加算
     public void addExperience(int amount) {
         this.experience += amount;
-        checkLevelUp();
+
+        while (this.experience >= getExperienceNeededForNextLevel()) {
+            this.experience -= getExperienceNeededForNextLevel();
+            this.level++;
+            System.out.println(name + " レベルアップ " + level + "!");
+        }
     }
 
-    // レベルアップのチェック
-    private void checkLevelUp() {
-        if (this.experience >= 10 * this.level) {
-            this.level++;
-            this.experience = 0; // レベルアップ時に経験値リセット
-            System.out.println(name + " leveled up to level " + level + "!");
-        }
+    private int getExperienceNeededForNextLevel() {
+        return level * 10; // レベルごとに必要な経験値を設定
     }
 
     // ゲッター
