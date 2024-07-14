@@ -1,22 +1,34 @@
 package reijuu.jisakuMod2.TEST;
 
+import reijuu.jisakuMod2.TEST.Skill;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class SkillManager {
+    private static SkillManager instance;
     private List<Skill> skills;
 
-    public SkillManager() {
+    // プライベートコンストラクタ
+    SkillManager() {
         skills = new ArrayList<>();
         initializeSkills();
     }
 
+    // シングルトンインスタンスを取得
+    public static SkillManager getInstance() {
+        if (instance == null) {
+            instance = new SkillManager();
+        }
+        return instance;
+    }
+
     private void initializeSkills() {
-        skills.add(new Skill("Health Up"));
-        skills.add(new Skill("Attack Power Up"));
-        skills.add(new Skill("Defense Up"));
-        skills.add(new Skill("Movement Speed Up"));
-        skills.add(new Skill("Attack Speed Up"));
+        skills.add(new Skill("体力アップ"));
+        skills.add(new Skill("攻撃力アップ"));
+        skills.add(new Skill("防御力アップ"));
+        skills.add(new Skill("移動速度アップ"));
+        skills.add(new Skill("攻撃速度アップ"));
     }
 
     // スキルの取得
@@ -36,6 +48,7 @@ public class SkillManager {
             skill.addExperience(amount);
         }
     }
+
     public List<Skill> getAllSkills() {
         return skills;
     }
