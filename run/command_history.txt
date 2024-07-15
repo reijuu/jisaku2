@@ -5,3 +5,13 @@
 /
 /showskills<--
 /showskills
+/showskills @p
+/showskills
+/
+/showskills
+/
+/showskills
+/
+/showskills
+/
+/showskills

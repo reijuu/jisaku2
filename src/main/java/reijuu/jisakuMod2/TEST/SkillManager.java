@@ -52,4 +52,8 @@ public class SkillManager {
     public List<Skill> getAllSkills() {
         return skills;
     }
+    public int getSkillIncrease(String skillName) {
+        Skill skill = getSkill(skillName);
+        return skill != null ? skill.getIncreaseAmount() : 0;
+    }
 }

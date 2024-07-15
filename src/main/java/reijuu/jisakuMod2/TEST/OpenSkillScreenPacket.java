@@ -1,6 +1,5 @@
 package reijuu.jisakuMod2.TEST;
 
-import net.minecraft.client.Minecraft;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
@@ -23,7 +22,7 @@ public class OpenSkillScreenPacket {
     public static void handle(OpenSkillScreenPacket packet, ServerPlayer player) {
         // クライアント側でスキル画面を開く処理
         player.sendSystemMessage(Component.literal("Opening Skills UI..."));
-        Minecraft.getInstance().setScreen(new SkillScreen());
+
     }
 
     public static void send(ServerPlayer player) {
