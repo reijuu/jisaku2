@@ -1,51 +1,51 @@
-[167月2024 01:21:23.862] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_client, --version, MOD_DEV, --assetIndex, 8, --assetsDir, C:\Users\user\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 48.1.0, --fml.mcVersion, 1.20.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230921.100330]
-[167月2024 01:21:23.867] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 17.0.11+9
-[167月2024 01:21:23.870] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.1.1 starting: java version 17.0.11 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[167月2024 01:21:24.044] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[167月2024 01:21:24.164] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[167月2024 01:21:24.282] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[167月2024 01:21:24.527] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) HD Graphics 630 GL version 4.6.0 - Build 31.0.101.2127, Intel
-[167月2024 01:21:24.529] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/user/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23127!/ Service=ModLauncher Env=CLIENT
-[167月2024 01:21:24.969] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\user\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.2-48.1.0\7a8d252b70bac3cde4ec0e82bd816fe0212551d\fmlcore-1.20.2-48.1.0.jar is missing mods.toml file
-[167月2024 01:21:24.973] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\user\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.2-48.1.0\d034c6f69f1f1cf324bdd7bbc66896e67990bbef\javafmllanguage-1.20.2-48.1.0.jar is missing mods.toml file
-[167月2024 01:21:24.980] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\user\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.2-48.1.0\ac35e86aee5633ea200ae1607b4ca48b24cd845\lowcodelanguage-1.20.2-48.1.0.jar is missing mods.toml file
-[167月2024 01:21:24.988] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\user\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.2-48.1.0\7ddb9ee7a72eb906db86ca9490f35be1789c2813\mclanguage-1.20.2-48.1.0.jar is missing mods.toml file
-[167月2024 01:21:25.085] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[167月2024 01:21:26.900] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_client' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\user\.gradle\caches\forge_gradle\assets, --assetIndex, 8]
-[167月2024 01:21:43.832] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 192 Datafixer optimizations took 450 milliseconds
-[167月2024 01:21:45.940] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/user/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2/forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2-recomp.jar%23188!/assets/.mcassetsroot' uses unexpected schema
-[167月2024 01:21:45.940] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/user/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2/forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2-recomp.jar%23188!/data/.mcassetsroot' uses unexpected schema
-[167月2024 01:21:45.957] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[167月2024 01:21:45.968] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[167月2024 01:21:46.136] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.2+13
-[167月2024 01:21:46.947] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 48.1.0, for MC 1.20.2 with MCP 20230921.100330
-[167月2024 01:21:46.947] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v48.1.0 Initialized
-[167月2024 01:21:48.194] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [jisaku2]
-[167月2024 01:21:48.579] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[167月2024 01:21:48.719] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[167月2024 01:21:49.449] [Worker-Main-2/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[167月2024 01:21:51.165] [Worker-Main-3/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture jisaku2:item/orihalcon_sword with size 122x122 limits mip level from 4 to 1
-[167月2024 01:21:51.440] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 48.1.0 Target: null
-[167月2024 01:21:54.925] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[167月2024 01:21:54.926] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[167月2024 01:21:55.918] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on スピーカー (Realtek High Definition Audio)
-[167月2024 01:21:55.920] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[167月2024 01:21:56.049] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[167月2024 01:21:56.611] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[167月2024 01:21:56.613] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[167月2024 01:21:56.635] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[167月2024 01:21:56.650] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[167月2024 01:21:56.775] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[167月2024 01:21:56.777] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[167月2024 01:21:56.779] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[167月2024 01:21:56.801] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[167月2024 01:21:57.696] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[167月2024 01:21:58.424] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[167月2024 01:21:58.479] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[167月2024 01:21:58.482] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[167月2024 01:21:58.484] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[167月2024 01:21:58.972] [IO-Worker-1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[167月2024 01:21:58.973] [IO-Worker-1/ERROR] [com.mojang.realmsclient.RealmsAvailability/]: Couldn't connect to realms
+[177月2024 20:43:30.588] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_client, --version, MOD_DEV, --assetIndex, 8, --assetsDir, C:\Users\user\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 48.1.0, --fml.mcVersion, 1.20.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230921.100330]
+[177月2024 20:43:30.592] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 17.0.11+9
+[177月2024 20:43:30.595] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.1.1 starting: java version 17.0.11 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[177月2024 20:43:30.767] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[177月2024 20:43:30.902] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[177月2024 20:43:31.012] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[177月2024 20:43:31.246] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/user/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23127!/ Service=ModLauncher Env=CLIENT
+[177月2024 20:43:31.249] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) HD Graphics 630 GL version 4.6.0 - Build 31.0.101.2127, Intel
+[177月2024 20:43:31.691] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\user\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.2-48.1.0\7a8d252b70bac3cde4ec0e82bd816fe0212551d\fmlcore-1.20.2-48.1.0.jar is missing mods.toml file
+[177月2024 20:43:31.696] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\user\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.2-48.1.0\d034c6f69f1f1cf324bdd7bbc66896e67990bbef\javafmllanguage-1.20.2-48.1.0.jar is missing mods.toml file
+[177月2024 20:43:31.702] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\user\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.2-48.1.0\ac35e86aee5633ea200ae1607b4ca48b24cd845\lowcodelanguage-1.20.2-48.1.0.jar is missing mods.toml file
+[177月2024 20:43:31.710] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\user\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.2-48.1.0\7ddb9ee7a72eb906db86ca9490f35be1789c2813\mclanguage-1.20.2-48.1.0.jar is missing mods.toml file
+[177月2024 20:43:31.835] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[177月2024 20:43:33.872] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_client' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\user\.gradle\caches\forge_gradle\assets, --assetIndex, 8]
+[177月2024 20:43:39.948] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 192 Datafixer optimizations took 398 milliseconds
+[177月2024 20:43:41.967] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/user/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2/forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2-recomp.jar%23188!/assets/.mcassetsroot' uses unexpected schema
+[177月2024 20:43:41.967] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/user/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2/forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2-recomp.jar%23188!/data/.mcassetsroot' uses unexpected schema
+[177月2024 20:43:41.981] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[177月2024 20:43:41.992] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[177月2024 20:43:42.151] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.2+13
+[177月2024 20:43:42.842] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 48.1.0, for MC 1.20.2 with MCP 20230921.100330
+[177月2024 20:43:42.842] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v48.1.0 Initialized
+[177月2024 20:43:44.123] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [jisaku2]
+[177月2024 20:43:44.386] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[177月2024 20:43:44.679] [Worker-Main-2/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[177月2024 20:43:44.792] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[177月2024 20:43:45.665] [Worker-Main-3/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture jisaku2:item/orihalcon_sword with size 122x122 limits mip level from 4 to 1
+[177月2024 20:43:45.899] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 48.1.0 Target: null
+[177月2024 20:43:48.857] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[177月2024 20:43:48.857] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[177月2024 20:43:49.069] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on スピーカー (Realtek High Definition Audio)
+[177月2024 20:43:49.070] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[177月2024 20:43:49.208] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[177月2024 20:43:49.524] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[177月2024 20:43:49.526] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[177月2024 20:43:49.528] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[177月2024 20:43:49.531] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[177月2024 20:43:49.552] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[177月2024 20:43:49.553] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[177月2024 20:43:49.554] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[177月2024 20:43:49.556] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[177月2024 20:43:50.354] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[177月2024 20:43:51.063] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[177月2024 20:43:51.077] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[177月2024 20:43:51.079] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[177月2024 20:43:51.082] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[177月2024 20:43:51.483] [IO-Worker-1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[177月2024 20:43:51.484] [IO-Worker-1/ERROR] [com.mojang.realmsclient.RealmsAvailability/]: Couldn't connect to realms
 com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication error with message 'Invalid session id'
 	at com.mojang.realmsclient.client.RealmsClient.execute(RealmsClient.java:390) ~[forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2-recomp.jar%23188!/:?]
 	at com.mojang.realmsclient.client.RealmsClient.clientCompatible(RealmsClient.java:187) ~[forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2-recomp.jar%23188!/:?]
@@ -54,117 +54,45 @@ com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[167月2024 01:22:04.416] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[167月2024 01:22:06.688] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[167月2024 01:22:07.059] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1282 advancements
-[167月2024 01:22:07.655] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.2
-[167月2024 01:22:07.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[167月2024 01:22:08.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[167月2024 01:22:14.928] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
-[167月2024 01:22:14.929] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
-[167月2024 01:22:14.931] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
-[167月2024 01:22:14.932] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
-[167月2024 01:22:14.933] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
-[167月2024 01:22:14.933] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
-[167月2024 01:22:14.934] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
-[167月2024 01:22:14.934] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
-[167月2024 01:22:14.934] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
-[167月2024 01:22:14.934] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
-[167月2024 01:22:14.934] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
-[167月2024 01:22:14.934] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
-[167月2024 01:22:14.935] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
-[167月2024 01:22:14.939] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
-[167月2024 01:22:15.077] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
-[167月2024 01:22:15.764] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
-[167月2024 01:22:18.479] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[167月2024 01:22:18.497] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10447 ms
-[167月2024 01:22:24.339] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5858ms or 117 ticks behind
-[167月2024 01:22:24.680] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[167月2024 01:22:24.680] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[167月2024 01:22:26.234] [Render thread/INFO] [net.minecraftforge.common.ForgeHooks/]: Connected to a modded server.
-[167月2024 01:22:26.432] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:3b71207b] logged in with entity id 103 at (-4.745426939871242, -59.417690388744795, 13.067797626140434)
-[167月2024 01:22:26.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Devがゲームに参加しました
-[167月2024 01:22:26.989] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 56 advancements
-[167月2024 01:22:34.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Devはスライムに殺害された
-[167月2024 01:22:34.845] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Devはスライムに殺害された
-[167月2024 01:22:41.515] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 現在のスキル:\n体力アップ - レベル: 2, 経験値: 8, 上昇量: 4\n攻撃力アップ - レベル: 1, 経験値: 0, 上昇量: 2\n防御力アップ - レベル: 2, 経験値: 8, 上昇量: 4\n移動速度アップ - レベル: 1, 経験値: 0, 上昇量: 2\n攻撃速度アップ - レベル: 1, 経験値: 0, 上昇量: 2\n
-[167月2024 01:23:00.801] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 現在のスキル:\n体力アップ - レベル: 3, 経験値: 0, 上昇量: 6\n攻撃力アップ - レベル: 1, 経験値: 0, 上昇量: 2\n防御力アップ - レベル: 3, 経験値: 0, 上昇量: 6\n移動速度アップ - レベル: 1, 経験値: 0, 上昇量: 2\n攻撃速度アップ - レベル: 1, 経験値: 0, 上昇量: 2\n
-[167月2024 01:23:04.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Devはスライムに殺害された
-[167月2024 01:23:04.251] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Devはスライムに殺害された
-[167月2024 01:23:09.720] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 不明または不完全なコマンドです。以下のエラーをご覧ください。
-[167月2024 01:23:09.721] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ←［問題箇所］
-[167月2024 01:23:11.952] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 不明または不完全なコマンドです。以下のエラーをご覧ください。
-[167月2024 01:23:11.952] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ←［問題箇所］
-[167月2024 01:23:16.703] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 現在のスキル:\n体力アップ - レベル: 3, 経験値: 12, 上昇量: 6\n攻撃力アップ - レベル: 1, 経験値: 0, 上昇量: 2\n防御力アップ - レベル: 3, 経験値: 12, 上昇量: 6\n移動速度アップ - レベル: 1, 経験値: 0, 上昇量: 2\n攻撃速度アップ - レベル: 1, 経験値: 0, 上昇量: 2\n
-[167月2024 01:23:52.784] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 現在のスキル:\n体力アップ - レベル: 3, 経験値: 12, 上昇量: 6\n攻撃力アップ - レベル: 1, 経験値: 0, 上昇量: 2\n防御力アップ - レベル: 3, 経験値: 12, 上昇量: 6\n移動速度アップ - レベル: 9, 経験値: 10, 上昇量: 18\n攻撃速度アップ - レベル: 1, 経験値: 0, 上昇量: 2\n
-[167月2024 01:24:05.151] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 現在のスキル:\n体力アップ - レベル: 3, 経験値: 12, 上昇量: 6\n攻撃力アップ - レベル: 1, 経験値: 0, 上昇量: 2\n防御力アップ - レベル: 3, 経験値: 12, 上昇量: 6\n移動速度アップ - レベル: 11, 経験値: 94, 上昇量: 22\n攻撃速度アップ - レベル: 1, 経験値: 0, 上昇量: 2\n
-[167月2024 01:24:22.818] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 現在のスキル:\n体力アップ - レベル: 3, 経験値: 12, 上昇量: 6\n攻撃力アップ - レベル: 1, 経験値: 0, 上昇量: 2\n防御力アップ - レベル: 3, 経験値: 12, 上昇量: 6\n移動速度アップ - レベル: 14, 経験値: 110, 上昇量: 28\n攻撃速度アップ - レベル: 1, 経験値: 0, 上昇量: 2\n
-[167月2024 01:24:36.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをクリエイティブモードに変更しました］
-[167月2024 01:24:36.385] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをクリエイティブモードに変更しました
-[167月2024 01:25:07.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをサバイバルモードに変更しました］
-[167月2024 01:25:07.751] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをサバイバルモードに変更しました
-[167月2024 01:25:10.471] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 現在のスキル:\n体力アップ - レベル: 3, 経験値: 12, 上昇量: 6\n攻撃力アップ - レベル: 1, 経験値: 0, 上昇量: 2\n防御力アップ - レベル: 3, 経験値: 12, 上昇量: 6\n移動速度アップ - レベル: 14, 経験値: 110, 上昇量: 28\n攻撃速度アップ - レベル: 1, 経験値: 0, 上昇量: 2\n
-[167月2024 01:25:38.871] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 不明または不完全なコマンドです。以下のエラーをご覧ください。
-[167月2024 01:25:38.873] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ←［問題箇所］
-[167月2024 01:25:42.769] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 現在のスキル:\n体力アップ - レベル: 3, 経験値: 14, 上昇量: 6\n攻撃力アップ - レベル: 4, 経験値: 10, 上昇量: 8\n防御力アップ - レベル: 3, 経験値: 15, 上昇量: 6\n移動速度アップ - レベル: 15, 経験値: 122, 上昇量: 30\n攻撃速度アップ - レベル: 1, 経験値: 0, 上昇量: 2\n
-[167月2024 01:26:06.568] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 現在のスキル:\n体力アップ - レベル: 3, 経験値: 14, 上昇量: 6\n攻撃力アップ - レベル: 6, 経験値: 0, 上昇量: 12\n防御力アップ - レベル: 3, 経験値: 15, 上昇量: 6\n移動速度アップ - レベル: 15, 経験値: 122, 上昇量: 30\n攻撃速度アップ - レベル: 1, 経験値: 0, 上昇量: 2\n
-[167月2024 01:26:15.731] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[167月2024 01:26:15.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:overworld
-[167月2024 01:26:16.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_end
-[167月2024 01:26:16.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_nether
-[167月2024 01:27:22.553] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 現在のスキル:\n体力アップ - レベル: 4, 経験値: 3, 上昇量: 8\n攻撃力アップ - レベル: 7, 経験値: 40, 上昇量: 14\n防御力アップ - レベル: 4, 経験値: 6, 上昇量: 8\n移動速度アップ - レベル: 15, 経験値: 122, 上昇量: 30\n攻撃速度アップ - レベル: 1, 経験値: 0, 上昇量: 2\n
-[167月2024 01:27:22.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Devはスライムに殺害された
-[167月2024 01:27:22.985] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Devはスライムに殺害された
-[167月2024 01:27:26.969] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 現在のスキル:\n体力アップ - レベル: 4, 経験値: 5, 上昇量: 8\n攻撃力アップ - レベル: 7, 経験値: 40, 上昇量: 14\n防御力アップ - レベル: 4, 経験値: 9, 上昇量: 8\n移動速度アップ - レベル: 15, 経験値: 122, 上昇量: 30\n攻撃速度アップ - レベル: 1, 経験値: 0, 上昇量: 2\n
-[167月2024 01:27:44.081] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[167月2024 01:27:44.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:overworld
-[167月2024 01:27:44.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_end
-[167月2024 01:27:44.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_nether
-[167月2024 01:27:57.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをクリエイティブモードに変更しました］
-[167月2024 01:27:57.334] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをクリエイティブモードに変更しました
-[167月2024 01:27:59.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをサバイバルモードに変更しました］
-[167月2024 01:27:59.318] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをサバイバルモードに変更しました
-[167月2024 01:28:02.702] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 現在のスキル:\n体力アップ - レベル: 4, 経験値: 5, 上昇量: 8\n攻撃力アップ - レベル: 7, 経験値: 40, 上昇量: 14\n防御力アップ - レベル: 4, 経験値: 9, 上昇量: 8\n移動速度アップ - レベル: 16, 経験値: 60, 上昇量: 32\n攻撃速度アップ - レベル: 1, 経験値: 0, 上昇量: 2\n
-[167月2024 01:28:07.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをクリエイティブモードに変更しました］
-[167月2024 01:28:07.302] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをクリエイティブモードに変更しました
-[167月2024 01:28:08.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをサバイバルモードに変更しました］
-[167月2024 01:28:08.718] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをサバイバルモードに変更しました
-[167月2024 01:28:12.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをクリエイティブモードに変更しました］
-[167月2024 01:28:12.252] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをクリエイティブモードに変更しました
-[167月2024 01:29:22.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをサバイバルモードに変更しました］
-[167月2024 01:29:22.801] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをサバイバルモードに変更しました
-[167月2024 01:29:24.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Devはウォーデンに殺害された
-[167月2024 01:29:24.119] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Devはウォーデンに殺害された
-[167月2024 01:29:33.601] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 現在のスキル:\n体力アップ - レベル: 4, 経験値: 37, 上昇量: 8\n攻撃力アップ - レベル: 7, 経験値: 40, 上昇量: 14\n防御力アップ - レベル: 4, 経験値: 15, 上昇量: 8\n移動速度アップ - レベル: 16, 経験値: 118, 上昇量: 32\n攻撃速度アップ - レベル: 1, 経験値: 0, 上昇量: 2\n
-[167月2024 01:29:39.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをクリエイティブモードに変更しました］
-[167月2024 01:29:39.285] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをクリエイティブモードに変更しました
-[167月2024 01:30:15.134] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 56 advancements
-[167月2024 01:30:15.601] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 58 advancements
-[167月2024 01:30:58.402] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 現在のスキル:\n体力アップ - レベル: 4, 経験値: 37, 上昇量: 8\n攻撃力アップ - レベル: 7, 経験値: 60, 上昇量: 14\n防御力アップ - レベル: 4, 経験値: 15, 上昇量: 8\n移動速度アップ - レベル: 16, 経験値: 118, 上昇量: 32\n攻撃速度アップ - レベル: 1, 経験値: 0, 上昇量: 2\n
-[167月2024 01:31:07.082] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[167月2024 01:31:07.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:overworld
-[167月2024 01:31:07.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_end
-[167月2024 01:31:07.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_nether
-[167月2024 01:31:34.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをサバイバルモードに変更しました］
-[167月2024 01:31:34.718] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをサバイバルモードに変更しました
-[167月2024 01:32:16.881] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[167月2024 01:32:16.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:overworld
-[167月2024 01:32:16.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_end
-[167月2024 01:32:16.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_nether
-[167月2024 01:32:20.101] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 現在のスキル:\n体力アップ - レベル: 5, 経験値: 11, 上昇量: 10\n攻撃力アップ - レベル: 7, 経験値: 60, 上昇量: 14\n防御力アップ - レベル: 4, 経験値: 18, 上昇量: 8\n移動速度アップ - レベル: 17, 経験値: 38, 上昇量: 34\n攻撃速度アップ - レベル: 1, 経験値: 0, 上昇量: 2\n
-[167月2024 01:32:33.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをクリエイティブモードに変更しました］
-[167月2024 01:32:33.868] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをクリエイティブモードに変更しました
-[167月2024 01:33:20.275] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[167月2024 01:33:20.791] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: 切断されました
-[167月2024 01:33:20.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Devがゲームを退出しました
-[167月2024 01:33:20.802] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
-[167月2024 01:33:20.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[167月2024 01:33:20.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[167月2024 01:33:20.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[167月2024 01:33:21.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:overworld
-[167月2024 01:33:21.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_end
-[167月2024 01:33:21.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_nether
-[167月2024 01:33:21.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (新規ワールド (3)): All chunks are saved
-[167月2024 01:33:21.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[167月2024 01:33:21.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[167月2024 01:33:21.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[177月2024 20:43:57.770] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[177月2024 20:43:59.846] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[177月2024 20:43:59.996] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1282 advancements
+[177月2024 20:44:00.515] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.2
+[177月2024 20:44:00.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[177月2024 20:44:00.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[177月2024 20:44:04.255] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
+[177月2024 20:44:04.256] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
+[177月2024 20:44:04.256] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
+[177月2024 20:44:04.256] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
+[177月2024 20:44:04.256] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
+[177月2024 20:44:04.256] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
+[177月2024 20:44:04.256] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
+[177月2024 20:44:04.464] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
+[177月2024 20:44:04.982] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：54%
+[177月2024 20:44:05.440] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[177月2024 20:44:05.452] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4555 ms
+[177月2024 20:44:05.659] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[177月2024 20:44:05.659] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[177月2024 20:44:06.648] [Render thread/INFO] [net.minecraftforge.common.ForgeHooks/]: Connected to a modded server.
+[177月2024 20:44:06.771] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:010b257c] logged in with entity id 78 at (-12.400012761645621, -60.0, 3.6324456080131653)
+[177月2024 20:44:06.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Devがゲームに参加しました
+[177月2024 20:44:07.696] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 105 advancements
+[177月2024 20:44:18.470] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 現在のスキル:\n体力アップ - レベル: 1, 経験値: 4, 上昇量: 2, 状態: 有効\n攻撃力アップ - レベル: 1, 経験値: 0, 上昇量: 2, 状態: 有効\n防御力アップ - レベル: 1, 経験値: 6, 上昇量: 2, 状態: 有効\n移動速度アップ - レベル: 1, 経験値: 0, 上昇量: 2, 状態: 有効\nジャンプ力アップ - レベル: 1, 経験値: 0, 上昇量: 2, 状態: 有効\n攻撃速度アップ - レベル: 1, 経験値: 0, 上昇量: 2, 状態: 有効\n
+[177月2024 20:44:29.592] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[177月2024 20:44:29.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:overworld
+[177月2024 20:44:29.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_nether
+[177月2024 20:44:29.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_end
+[177月2024 20:44:31.573] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[177月2024 20:44:31.603] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: 切断されました
+[177月2024 20:44:31.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Devがゲームを退出しました
+[177月2024 20:44:31.618] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[177月2024 20:44:31.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[177月2024 20:44:31.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[177月2024 20:44:31.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[177月2024 20:44:31.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:overworld
+[177月2024 20:44:31.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_nether
+[177月2024 20:44:31.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_end
+[177月2024 20:44:32.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (新規ワールド (3)): All chunks are saved
+[177月2024 20:44:32.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[177月2024 20:44:32.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[177月2024 20:44:32.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

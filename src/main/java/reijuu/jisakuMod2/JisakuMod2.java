@@ -17,8 +17,8 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 import reijuu.jisakuMod2.Item.JisakuItems;
 import reijuu.jisakuMod2.Item.ItemTabs;
-import reijuu.jisakuMod2.TEST.ShowSkillsCommand;
-import reijuu.jisakuMod2.TEST.SkillEventHandler;
+import reijuu.jisakuMod2.SKILL.ShowSkillsCommand;
+import reijuu.jisakuMod2.SKILL.SkillEventHandler;
 import reijuu.jisakuMod2.block.JisakBlocks;
 import reijuu.jisakuMod2.entity.JisakuEntity;
 import reijuu.jisakuMod2.entity.blockentity.JisakuBlockEntityTypes;
@@ -28,7 +28,7 @@ import reijuu.jisakuMod2.loot.JisakuLootModeifiers;
 public class JisakuMod2 {
     public static final String MODID = "jisaku2";
     private static final Logger LOGGER = LogUtils.getLogger();
-    
+
 
     public JisakuMod2() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();

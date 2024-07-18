@@ -15,3 +15,14 @@
 /showskills
 /
 /showskills
+/effect give @a night_vision infinite 0 true
+/showskills
+/showskills offSkill
+/showskills offSkill jamp
+/showskills offSkill
+/showskills offSkill <skill>
+/showskills offSkill <移動速度アップ>
+/showskills offSkill skill
+/showskills
+/showskills offSkill
+/showskills

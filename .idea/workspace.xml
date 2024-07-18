@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbf40916-093a-4565-9a63-03520e9491e1" name="変更" comment="コミット">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cbf40916-093a-4565-9a63-03520e9491e1" name="変更" comment="コミット" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,8 +54,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -102,7 +100,7 @@
     &quot;git-widget-placeholder&quot;: &quot;reijuu-patch-1&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/マイクラ関係/バニラ素材&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/mods/jisaku2/src/main/resources/assets/jisaku2/textures/gui&quot;,
     &quot;project.structure.last.edited&quot;: &quot;モジュール&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -116,11 +114,11 @@
       <recent name="reijuu.jisakuMod2.entity.projectile" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\mods\jisaku2\src\main\resources\assets\jisaku2\textures\gui" />
       <recent name="C:\Users\user\Desktop\マイクラ関係\バニラ素材" />
       <recent name="C:\mods\jisaku2\src\generated\resources\assets\jisaku2\models\block" />
       <recent name="C:\mods\jisaku2\src\main\resources\assets\jisaku2\textures\item" />
       <recent name="C:\mods\jisaku2\src\main\resources\assets\jisaku2\textures\block" />
-      <recent name="C:\mods\jisaku2\src\main\resources\assets\jisaku2\textures\block\models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\mods\jisaku2\src\main\resources\assets\jisaku2\textures\item\models" />
@@ -130,6 +128,7 @@
       <recent name="C:\mods\jisaku2\src\main\java\reijuu\jisakuMod2\entity\custom" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="reijuu.jisakuMod2.enchant" />
       <recent name="reijuu.jisakuMod2.datagen" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -138,11 +137,11 @@
   </component>
   <component name="RunManager" selected="Gradle.jisaku2 [runClient]">
     <configuration name="SkillTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reijuu.jisakuMod2.TEST.SkillTest" />
+      <option name="MAIN_CLASS_NAME" value="reijuu.jisakuMod2.SKILL.SkillTest" />
       <module name="jisaku2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reijuu.jisakuMod2.TEST.*" />
+          <option name="PATTERN" value="reijuu.jisakuMod2.SKILL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
