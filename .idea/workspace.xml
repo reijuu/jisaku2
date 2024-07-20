@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbf40916-093a-4565-9a63-03520e9491e1" name="変更" comment="コミット">
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-07-17-10.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-07-17-11.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-07-18-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2024-07-18-5.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2024-07-18-6.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2024-07-18-7.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/screenshots/2024-07-18_18.20.32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/SKILL/GuiPositionLogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" afterDir="false" />
@@ -17,19 +20,31 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/SkillScreen.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/SkillScreenProvider.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/SKILL/ShowSkillsCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/SKILL/ShowSkillsCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/SKILL/Skill.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/SKILL/Skill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/SKILL/SkillScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/SKILL/SkillScreenMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/SKILL/SkillScreenProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/SKILL/SkillScreenProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/TEST/OpenSkillScreenPacket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/TEST/ShowSkillsCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/TEST/SkillEventHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/TEST/SkillScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/TEST/SkillScreenMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/TEST/SkillScreenProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/reijuu/jisakuMod2/TEST/debug/DebugUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/DamageCompuBlockEntity.class.uniqueId4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/DamageComputationBlock.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/DamageEventHandler.class.uniqueId6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/JisakBlocks.class.uniqueId5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/JisakuBlockEntityTypes.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/JisakuMod2$ClientModEvents.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/JisakuMod2.class.uniqueId0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/command_history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/command_history.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-17-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-17-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-17-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-17-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-17-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-17-7.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-8.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-17-8.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-9.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-17-9.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-18-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-18-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-18-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-18-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-18-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-18-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-18-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-18-4.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -39,8 +54,8 @@
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド (3)/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド (3)/DIM-1/data/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド (3)/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド (3)/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド (3)/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド (3)/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド (3)/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド (3)/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド (3)/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド (3)/data/random_sequences.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド (3)/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド (3)/entities/r.-1.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド (3)/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド (3)/entities/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド (3)/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド (3)/entities/r.0.-1.mca" afterDir="false" />
@@ -49,16 +64,25 @@
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド (3)/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド (3)/level.dat_old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド (3)/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド (3)/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド (3)/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド (3)/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド (3)/poi/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド (3)/poi/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド (3)/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド (3)/region/r.-1.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド (3)/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド (3)/region/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド (3)/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド (3)/region/r.0.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド (3)/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド (3)/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド (3)/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド (3)/session.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/新規ワールド (3)/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新規ワールド (3)/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/TEST/ShowSkillsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/TEST/ShowSkillsCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/TEST/SkillEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/TEST/SkillEventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/TEST/SkillScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/TEST/SkillScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/SKILL/ShowSkillsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/SKILL/ShowSkillsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/SKILL/Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/SKILL/Skill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/SKILL/SkillScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/SKILL/SkillManagerScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/SKILL/SkillScreenMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/SKILL/SkillManagerMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/SKILL/SkillScreenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/SKILL/SkillScreenProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/TEST/OpenSkillScreenPacket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/TEST/ShowSkillsCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/TEST/SkillEventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/TEST/SkillScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/TEST/SkillScreenMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/TEST/SkillScreenProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reijuu/jisakuMod2/TEST/debug/DebugUtils.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +140,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/jisaku2" value="main" />
@@ -123,6 +148,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="fd9740d2-ebf5-4676-866f-d3a444fe7ccf" />
   </component>
   <component name="MavenRunner">
     <option name="vmOptions" value="-Dfile.encoding=UTF-8" />
@@ -152,14 +180,13 @@
     &quot;JavaVariableFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;reijuu-patch-1&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/mods/jisaku2/src/main/resources/assets/jisaku2/textures/gui&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Downloads/jisaku2-reijuu-patch-1/jisaku2-reijuu-patch-1&quot;,
     &quot;project.structure.last.edited&quot;: &quot;モジュール&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;アプリケーション.SkillTest.executor&quot;: &quot;Run&quot;
   }
 }</component>
@@ -176,11 +203,11 @@
       <recent name="C:\mods\jisaku2\src\main\resources\assets\jisaku2\textures\block" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\mods\jisaku2\src\main\resources\assets\jisaku2\textures\gui\container" />
       <recent name="C:\mods\jisaku2\src\main\resources\assets\jisaku2\textures\item\models" />
       <recent name="C:\mods\jisaku2\src\generated\resources\assets\jisaku2\models\item" />
       <recent name="C:\mods\jisaku2\src\main\resources\assets\jisaku2\models" />
       <recent name="C:\mods\jisaku2\src\main\java\reijuu\jisakuMod2\Item" />
-      <recent name="C:\mods\jisaku2\src\main\java\reijuu\jisakuMod2\entity\custom" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="reijuu.jisakuMod2.enchant" />
@@ -465,7 +492,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721286892200</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="コミット">
+      <option name="closed" value="true" />
+      <created>1721289514189</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1721289514189</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -481,6 +516,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/jisaku2" />
+    </ignored-roots>
     <MESSAGE value="Initial commit&#10;jisaku2" />
     <MESSAGE value="jisaku2" />
     <MESSAGE value="コミット" />

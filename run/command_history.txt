@@ -27,3 +27,4 @@
 /showskills offSkill
 /showskills
 /effect give @a night_vision infinite 0 true
+/showskills showcoords

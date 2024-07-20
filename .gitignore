@@ -1,2 +1,6 @@
 
 jisaku2/
+
+# プロジェクトの除外パス
+/build/
+/build/classes/java/main/

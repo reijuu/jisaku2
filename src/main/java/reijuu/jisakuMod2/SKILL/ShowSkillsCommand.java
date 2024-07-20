@@ -3,6 +3,7 @@ package reijuu.jisakuMod2.SKILL;
 import com.mojang.brigadier.Command;
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.StringArgumentType;
+import net.minecraft.client.Minecraft;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
 import net.minecraft.network.chat.Component;
@@ -16,7 +17,6 @@ public class ShowSkillsCommand {
                     SkillManager skillManager = SkillManager.getInstance();
                     StringBuilder skillsInfo = new StringBuilder("現在のスキル:\n");
 
-                    // スキル情報を取得
                     // スキル情報を取得
                     for (Skill skill : skillManager.getAllSkills()) {
                         skillsInfo.append(skill.getName())
@@ -62,6 +62,13 @@ public class ShowSkillsCommand {
                                     return Command.SINGLE_SUCCESS;
                                 })
                         )
+                )
+                .then(Commands.literal("showcoords")
+                        .executes(context -> {
+                            // 座標を取得してログに出力
+                            Minecraft.getInstance().setScreen(new GuiPositionLogger(Component.literal("Position Logger")));
+                            return Command.SINGLE_SUCCESS;
+                        })
                 )
         );
     }

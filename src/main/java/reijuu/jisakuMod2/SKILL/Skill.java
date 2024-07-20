@@ -65,7 +65,7 @@ public class Skill {
 
     public double getMovementSpeedMultiplier() {
         // 同様に移動速度の計算を追加
-        return 1.0 + (level / 100.0) * 0.5; // 例: レベルごとに移動速度が増加
+        return 1.0 + (level / 100.0) * 0.1; // 例: レベルごとに移動速度が増加
     }
 
     public double getJumpHeightMultiplier() {
